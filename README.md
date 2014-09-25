@@ -1,17 +1,14 @@
 ---
-  tags: rails, join tables, micro
+  tags: rails, join tables, todo
   languages: ruby
+  resources: 1
 ---
 
 # Join the Fun
 
-## Deliverables
-
-Fork this repository and submit your solution in master.
-
 ## Instructions
 
-Flatiron School has started it's own taxi service, FlatironX, and we need to
+Flatiron School has started its own taxi service, FlatironX, and we need to
 start developing the application's domain model!
 
 Three basic models have already been created, Passenger, Ride, and Taxi. Just run
@@ -31,3 +28,6 @@ get the database ready to handle the "has_many :through" relationship.
 Check out the join table section in the [Active Record Association Rails Guide](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association).
 
 Run the tests using the `rspec` command.
+
+## Resources
+* [Rails Guides](http://guides.rubyonrails.org/) - [Active Record Associations: Join Table section](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association)
